@@ -1,0 +1,32 @@
+.dashboard-container {
+	padding: 10px;
+
+	.dashboard-title {
+		font-size: 20px;
+		font-weight: 700;
+		color: #0D99FF;
+		margin-bottom: 10px;
+	}
+
+	.dashboard-button {
+		margin-bottom: 10px;
+
+
+		& > a {
+			margin-right: 5px;
+		}
+
+		button {
+			background: none;
+			cursor: pointer;
+			border: 2px solid black;
+		}
+
+		a.active {
+			button {
+				color: #0D99FF;
+				border-color: #0D99FF;
+			}
+		}
+	}
+}

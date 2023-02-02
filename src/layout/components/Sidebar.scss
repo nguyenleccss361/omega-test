@@ -1,0 +1,15 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10px;
+
+	a {
+		width: 100%;
+		border-bottom: 2px solid grey;
+		text-align: end;
+
+		& + * {
+			margin-top: 10px;
+		}
+	}
+}

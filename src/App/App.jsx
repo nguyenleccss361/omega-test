@@ -1,6 +1,6 @@
-import React from 'react'
-import { RouteList } from 'config/routes'
+import { RouteList } from '../config/routes'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import './App.scss'
 
 export function App() {
   const routerList = RouteList()

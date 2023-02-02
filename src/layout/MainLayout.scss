@@ -1,0 +1,14 @@
+.main-layout-container {
+	display: flex;
+	min-height: 100vh;
+	padding: 30px 20px;
+
+	.sidebar-container {
+		flex: 1;
+		border-right: 5px solid #0D99FF;
+	}
+
+	.main-layout-outlet {
+		flex: 4;
+	}
+}

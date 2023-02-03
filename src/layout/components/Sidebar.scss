@@ -8,6 +8,10 @@
 		border-bottom: 2px solid grey;
 		text-align: end;
 
+		&.active {
+			color: #0D99FF;
+		}
+
 		& + * {
 			margin-top: 10px;
 		}
